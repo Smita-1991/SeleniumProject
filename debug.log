@@ -1,0 +1,4 @@
+[0515/182422.602:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\nv933\AppData\Local\Temp\scoped_dir15364_194725836\Crashpad: The system cannot find the file specified. (0x2)
+[0516/141636.139:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\nv933\AppData\Local\Temp\scoped_dir4384_515602279\Crashpad: The system cannot find the file specified. (0x2)
+[0516/062836.734:ERROR:file_io_win.cc(170)] CreateFile C:\Users\nv933\AppData\Local\Temp\scoped_dir7152_1698212514\Crashpad\reports\63433a20-f435-4412-a50d-51328ad0788b.dmp: The system cannot find the path specified. (0x3)
+[0516/062836.735:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

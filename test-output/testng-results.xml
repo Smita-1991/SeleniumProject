@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42" started-at="2020-06-20T13:15:04Z" finished-at="2020-06-20T13:15:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42" started-at="2020-06-20T13:15:04Z" finished-at="2020-06-20T13:15:04Z">
+      <class name="TestNG.TestCase2">
+        <test-method status="SKIP" signature="companyName(java.lang.String)[pri:0, instance:TestNG.TestCase2@5474c6c]" name="companyName" duration-ms="0" started-at="2020-06-20T03:15:04Z" data-provider="getName" finished-at="2020-06-20T03:15:04Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:163)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1276)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:991)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1081)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at TestNG.TestCase2.getName(TestCase2.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companyName -->
+        <test-method status="PASS" signature="data(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestCase2@5474c6c]" name="data" duration-ms="6" started-at="2020-06-20T03:15:04Z" data-provider="getData" finished-at="2020-06-20T03:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vinod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method status="PASS" signature="data(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestCase2@5474c6c]" name="data" duration-ms="2" started-at="2020-06-20T03:15:04Z" data-provider="getData" finished-at="2020-06-20T03:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhruv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kanawade]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method status="SKIP" signature="getData2(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestCase2@5474c6c]" name="getData2" duration-ms="0" started-at="2020-06-20T03:15:04Z" finished-at="2020-06-20T03:15:04Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method getData2 but has not been marked @Optional or defined
+in C:\Users\nv933\AppData\Local\Temp\testng-eclipse--857481023\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method getData2 but has not been marked @Optional or defined
+in C:\Users\nv933\AppData\Local\Temp\testng-eclipse--857481023\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1276)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:991)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1081)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData2 -->
+      </class> <!-- TestNG.TestCase2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

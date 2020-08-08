@@ -1,0 +1,53 @@
+Do you want to stay updated with the latest Automation Technologies/Updates/Jobs happening in Testing Industry?
+
+Are you curious to know the Best Practices what others Use in their companies for Software Testing??
+
+Get Social with us in LinkedIn, Facebook and see what other QA Peers are talking about on their experiences. You can have your general questions too and get suggestions from the Strongest QA Community Base
+
+FB QA Group : https://www.facebook.com/groups/RahulShettyAcademy/
+
+LinkedIn : https://www.linkedin.com/in/rahul-shetty-trainer/
+
+
+
+Subscribe to our below YouTube channel for Automation Tidbits and many Miscellaneous Important QA General topics which needed for Real time projects
+
+
+YouTube : https://www.youtube.com/c/RahulShettyAcademy
+
+https://rahulshettyacademy.com/AutomationPractice/
+
+Learn protractor 
+
+Relative Xpath: When we find and xpath of specific element without dependant apon parent node called reative xpath
+
+Absolute xpath: we will acutally traverse to the specific element with the help of parent node called relative xpath.
+
+Traverse between sibling:
+When the parent is dynamic and 2nd sibling is also dynamic if we want to get the 2nd sibling-> 1st sibling xpath/following-sibling::li[1]
+//*[@id='tablist-tab1']/following-sibling::li[1]
+
+
+When the parent is dynamic:
+xpath of sibling/parent::ul
+//*[@id='tablist-tab1']/parent::ul
+
+
+implicit wait: Actually define wait time globaly(Wait for n number of seconds before you throw exception)
+Advantage: you are define at globally. It is applicable till the driver instance is active
+
+If implesite wait is 5 sec and page load in 2 seconds it will come out of implesite wait loop and execute next line
+
+
+
+Explicit wait
+
+Webdriver wait:webdriver wait is applied for specific element. Webdriver continuosly monitoring screen wheathe r element is present on screen or not
+fluent wait: Fluent wait finds the element repeatedly at regular interval of time
+
+Webdriver wait:10 Sec continuosly monitoring screen.
+fluent wait:10 Sec monitoring screen at reguller interval of time ie polling time is 4 sec.
+
+Ex. Your card is accepted(displayed in first 3 sec), Your order is being processed( displayed within 7 sec)-confirmation(Note : xpath and id all same of this two element)
+In this scenarios we can use fluent wait-> if polling time is 4 sec,Fluent wait find element in 4 sec interval
+in first 4 sec fluent wait will monitor the screen and it will search"Your card is accepted", In next 4 it will search"Your order is being processed"
